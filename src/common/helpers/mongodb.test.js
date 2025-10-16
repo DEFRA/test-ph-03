@@ -20,11 +20,11 @@ describe('#mongoDb', () => {
     })
 
     test('MongoDb should have expected database name', () => {
-      expect(server.db.databaseName).toBe('cdp-node-backend-template')
+      expect(server.db.databaseName).toBe('test-ph-03')
     })
 
     test('MongoDb should have expected namespace', () => {
-      expect(server.db.namespace).toBe('cdp-node-backend-template')
+      expect(server.db.namespace).toBe('test-ph-03')
     })
   })
 
